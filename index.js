@@ -19,7 +19,7 @@ wss.on("connection", function(ws) {
     ws.send(JSON.stringify(new Date()), function() {  })
   }, 1000)
 
-  console.log("websocket connection open")
+  console.log("websocket connection open2")
 
   ws.on("close", function() {
     console.log("websocket connection close")
